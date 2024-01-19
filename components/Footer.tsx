@@ -2,11 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { footerLinks } from "@/constants";
-
-interface FooterLink {
-  title: string;
-  links: Array<{ title: string; url: string }>;
-}
+import { FooterLink } from '../interface/interface'
 
 const Footer: React.FC = () => {
   return (

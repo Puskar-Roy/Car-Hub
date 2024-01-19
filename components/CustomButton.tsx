@@ -1,11 +1,6 @@
 "use client"
 import React, { MouseEventHandler } from "react";
-
-interface CustomButtonProps {
-  title: string;
-  containerStyles: string;
-  handleClick: MouseEventHandler<HTMLButtonElement>;
-}
+import { CustomButtonProps } from "../interface/interface";
 
 const CustomButton: React.FC<CustomButtonProps> = ({
   title,

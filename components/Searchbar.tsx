@@ -2,8 +2,6 @@
 import React from 'react'
 import SearchMenufacturer from './SearchMenufacturer'
 
-
-
 const Searchbar = () => {
   const handleSubmit = ():void=>{alert("Working!")}
   return (
