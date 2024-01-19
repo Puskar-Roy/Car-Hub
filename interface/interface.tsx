@@ -11,3 +11,7 @@ export interface FooterLink {
   links: Array<{ title: string; url: string }>;
 }
 
+export interface SearchMenufacturerProps {
+  menufacturer: string;
+  setMenufacturer:(menufacturer: string)=>void;
+}

@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton";
 import React from "react";
 
 const Hero: React.FC = () => {
-  const handleScroll = () => {
+  const handleScroll = ():void => {
     window.alert("Explore Working!");
   };
 

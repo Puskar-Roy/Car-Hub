@@ -1,5 +1,5 @@
 "use client"
-import React, { MouseEventHandler } from "react";
+import React from "react";
 import { CustomButtonProps } from "../interface/interface";
 
 const CustomButton: React.FC<CustomButtonProps> = ({

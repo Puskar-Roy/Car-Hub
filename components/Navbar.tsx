@@ -19,7 +19,6 @@ const Navbar: React.FC = () => {
         </Link>
         <CustomButton
           title="Sign In"
-          //   btnType="button"
           containerStyles={
             "text-praimary-blue rounded-full bg-white min-w-[130px]"
           }
